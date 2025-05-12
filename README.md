@@ -42,7 +42,7 @@ AWS_SECRET_ACCESS_KEYE=.......
 Example:
 
 ```env
-REACT_APP_API_URL=http://localhost:8080/api
+ANGULAR_APP_API_URL=http://localhost:8080/api
 ```
 
 💡 If you're using Angular CLI, you can also use `angular.json` to set up environment-specific variables (e.g., for production or development).
