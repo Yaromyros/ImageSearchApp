@@ -23,15 +23,13 @@ Before running the application, make sure to set up your environment variables. 
 ### Backend (Spring Boot)
 
 1. Create a `.env` file in the `be/` folder (or set them directly in your system environment).
-2. Add the necessary environment variables, such as database URLs, JWT keys, etc.
+2. Add the necessary environment variables, such as AWS keys, etc.
 
 Example:
 
 ```env
-SPRING_DATASOURCE_URL=jdbc:postgresql://localhost:5432/postgres?currentSchema=cerebrica
-SPRING_DATASOURCE_USERNAME=postgres
-SPRING_DATASOURCE_PASSWORD=PaSSword22
-JWT_SECRET_KEY=your_jwt_secret_key_here
+AWS_ACCESS_KEY=...............
+AWS_SECRET_ACCESS_KEYE=.......
 ```
 
 💡 If you're using IntelliJ IDEA, you can also set these variables in the run configuration.
