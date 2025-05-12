@@ -1,3 +1,6 @@
+Ось оновлений README з додатковими інструкціями щодо налаштування змінних середовища перед запуском:
+
+```markdown
 # 🖼️ Image Search App
 
 A full-stack application for image searching, built with **Spring Boot** (backend) and **Angular** (frontend).
@@ -32,3 +35,70 @@ SPRING_DATASOURCE_URL=jdbc:postgresql://localhost:5432/postgres?currentSchema=ce
 SPRING_DATASOURCE_USERNAME=postgres
 SPRING_DATASOURCE_PASSWORD=PaSSword22
 JWT_SECRET_KEY=your_jwt_secret_key_here
+```
+
+💡 If you're using IntelliJ IDEA, you can also set these variables in the run configuration.
+
+### Frontend (Angular)
+
+1. In the `fe/` folder, create a `.env` file or configure environment variables as needed.
+2. Set any necessary variables for the Angular app, like the backend API URL.
+
+Example:
+
+```env
+REACT_APP_API_URL=http://localhost:8080/api
+```
+
+💡 If you're using Angular CLI, you can also use `angular.json` to set up environment-specific variables (e.g., for production or development).
+
+---
+
+## 1️⃣ Run the Backend (Spring Boot)
+
+📁 Navigate to the `be/` folder:
+
+```bash
+cd be
+```
+
+▶️ Start the Spring Boot application:
+
+```bash
+./mvnw spring-boot:run
+```
+
+💡 Or open the project in IntelliJ IDEA and run the class with `@SpringBootApplication`.
+
+---
+
+## 2️⃣ Run the Frontend (Angular)
+
+📁 Navigate to the `fe/` folder:
+
+```bash
+cd fe
+```
+
+📦 Install dependencies:
+
+```bash
+npm install
+```
+
+🚀 Start the Angular application:
+
+```bash
+ng serve
+```
+
+---
+
+🌐 Done!
+  - ✅ Backend is running at: `http://localhost:8080`
+  - ✅ Frontend is available at: `http://localhost:4200`
+```
+
+---
+
+Це оновлене README, яке включає в себе інструкції щодо налаштування змінних середовища перед запуском як для бекенду, так і для фронтенду.
