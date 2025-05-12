@@ -1,4 +1,4 @@
 export const environment = {
     production: false,
-    apiUrl: 'https://image-search-p7al.onrender.com'
+    apiUrl: 'PLACE YOUR PUBLIC ACCESS URL TO BE'
   };
