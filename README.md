@@ -93,7 +93,3 @@ ng serve
   - ✅ Backend is running at: `http://localhost:8080`
   - ✅ Frontend is available at: `http://localhost:4200`
 ```
-
----
-
-Це оновлене README, яке включає в себе інструкції щодо налаштування змінних середовища перед запуском як для бекенду, так і для фронтенду.
