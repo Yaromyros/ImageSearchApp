@@ -92,4 +92,3 @@ ng serve
 🌐 Done!
   - ✅ Backend is running at: `http://localhost:8080`
   - ✅ Frontend is available at: `http://localhost:4200`
-```
