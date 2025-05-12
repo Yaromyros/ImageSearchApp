@@ -1,6 +1,3 @@
-Ось оновлений README з додатковими інструкціями щодо налаштування змінних середовища перед запуском:
-
-```markdown
 # 🖼️ Image Search App
 
 A full-stack application for image searching, built with **Spring Boot** (backend) and **Angular** (frontend).
