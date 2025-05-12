@@ -22,32 +22,3 @@ Before you begin, make sure the following tools are installed on your machine:
 
 ```bash
 cd be
-
-▶️ Start the Spring Boot application:
-
-./mvnw spring-boot:run
-
-💡 Or open the project in IntelliJ IDEA and run the class with @SpringBootApplication.
-
-⸻
-
-2️⃣ Run the Frontend (Angular)
-
-📁 Navigate to the fe/ folder:
-
-cd fe
-
-📦 Install dependencies:
-
-npm install
-
-🚀 Start the Angular application:
-
-ng serve
-
-
-⸻
-
-🌐 Done!
-	•	✅ Backend is running at: http://localhost:8080
-	•	✅ Frontend is available at: http://localhost:4200
