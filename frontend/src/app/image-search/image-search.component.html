@@ -1,0 +1,46 @@
+<h1>Image Search App</h1>
+
+<div class="upload-section">
+  <label class="custom-file-upload">
+    Choose File
+    <input type="file" (change)="onFileSelected($event)" />
+  </label>
+  <button (click)="uploadImage()" [disabled]="!selectedFile">Upload</button>
+</div>
+
+<div *ngIf="uploadMessage" class="alert success">
+  {{ uploadMessage }}
+</div>
+
+<div class="search-section">
+  <p>Please find images that contain the following item:</p>
+  <input
+    type="text"
+    #searchInput
+    placeholder="Enter item..."
+  />
+  <button
+    (click)="searchImages(searchInput.value)"
+  >
+    Search
+  </button>
+</div>
+
+<div *ngIf="noImagesFoundMessage" class="alert no-images-alert">
+  {{ noImagesFoundMessage }}
+</div>
+
+<div *ngIf="loading" class="alert loading">
+  Loading...
+</div>
+
+<div *ngIf="matchingImages.length" class="results">
+  <div class="image-grid">
+    <img
+      *ngFor="let key of matchingImages"
+      [src]="key"
+      alt="Found image"
+      class="image-item"
+    />
+  </div>
+</div>
