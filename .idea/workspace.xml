@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="88865a39-48ec-4c6a-b7e2-f31b6716e742" name="Changes" comment="minor changes" />
+    <list default="true" id="88865a39-48ec-4c6a-b7e2-f31b6716e742" name="Changes" comment="minor changes">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/angular.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/angular.json" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -39,6 +42,7 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
+    "ts.external.directory.path": "/Users/yaromyrm/Desktop/ImageSearchApp/frontend/node_modules/typescript/lib",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -60,7 +64,7 @@
       <updated>1746197951492</updated>
       <workItem from="1746197952766" duration="130000" />
       <workItem from="1747049211860" duration="3231000" />
-      <workItem from="1747054123022" duration="7641000" />
+      <workItem from="1747054123022" duration="13914000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <option name="closed" value="true" />
